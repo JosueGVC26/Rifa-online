@@ -1,0 +1,9 @@
+{
+  "name": "rifa-online-webapp",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Aplicativo web de rifa com 100 números e painel administrativo",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^5.1.0", "multer": "^2.0.2", "better-sqlite3": "^12.4.1" }
+}
